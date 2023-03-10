@@ -62,4 +62,4 @@ class YTDLSource(discord.PCMVolumeTransformer):
         file = video.download()
         return cls(discord.FFmpegPCMAudio(file), data={'title': yt.title, 'url': url})
 
-bot.run('MTA4MzgwMzg0MTc4ODY0MTMxMA.GaCJV4.O-fnV-iSMl0NWlmjtNkjgRmUs-hclb3en6Ug0s')
+bot.run('SEU TOKEN')
